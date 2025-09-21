@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'pxfont';
+    src: url('fonts/pxfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'px437';
+    src: url('fonts/px437.ttf') format('truetype');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid rgb(246, 136, 225);
+    padding: 50px;
+    gap: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#title{
+    color: rgb(246, 136, 225);
+    font-size: 2vw;
+}
+
+.content {
+    color: rgb(246, 136, 225);
+    text-align: center;
+    font-family: 'pxfont';
+    font-size: 5vw;
+    pointer-events: none;
+}
+
+#text-about {
+    color: white;
+    font-family: 'px437';
+    font-size: 10px;
+    margin: 0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categories h2 {
+    color: rgb(246, 136, 225);
+    font-family: 'px437';
+    font-size: 10px;
+    margin: 0;
+}
+
+.categories a {
+    color: rgb(246, 136, 225);
+    text-decoration: none;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
